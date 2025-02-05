@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #506c89;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    /* Section Title */
+    h2 {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* Contact Container */
+    .contact-container {
+      background:#d4dae0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+    }
+
+    /* Contact Grid */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      padding: 20px;
+    }
+
+    /* Contact Items */
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      padding: 10px;
+      background: #f4f4f9;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .contact-item:hover {
+      background: #e0e0e5;
+    }
+
+    .contact-item img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .contact-item a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .contact-item a:hover {
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <h2>  Contact Me</h2>
+    <hr color="red">
+    <hr color="black">
+    
+    <div class="contact-grid">
+      <div class="contact-item">
+        <img src="images/telephone.svg" alt="Phone">
+        <a href="tel:+916265513746">Call Me</a>
+      </div>
+
+      <div class="contact-item">
+        <img src="images/envelope (1).svg" alt="Email">
+        <a href="mailto:6265manishpandey@gmail.com?subject=Hiring Inquiry">Email Me</a>
+      </div>
+
+      <div class="contact-item">
+        <img src="images/whatsapp.svg" alt="WhatsApp">
+        <a href="https://wa.me/916265513746?text=Hello%20Manish,%20I%20want%20to%20hire%20you!" target="_blank">WhatsApp</a>
+      </div>
+
+      <div class="contact-item">
+        <img src="images/linkedin.svg" alt="LinkedIn">
+        <a href="https://www.linkedin.com/in/manish-kumar-pandey-75b43b219" target="_blank">LinkedIn</a>
+      </div>
+
+      <div class="contact-item">
+        <img src="images/github.svg" alt="GitHub">
+        <a href="https://github.com/manishkumar-pandey" target="_blank">GitHub</a>
+      </div>
+
+      <div class="contact-item">
+        <img src="images/twitter-x.svg" alt="Twitter">
+        <a href="https://x.com/ManishKrewa" target="_blank">Twitter</a>
+      </div>
+
+      <div class="contact-item">
+        <img src="images/naukari -.png" alt="Naukri">
+        <a href="https://www.naukri.com/campus" target="_blank">Naukri</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

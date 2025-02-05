@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Manish Kumar Pandey</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span class="highlight">Manish Kumar Pandey</span></h1>
+            <h2>I'm a <span id="typing-text"></span></h2>
+            <p>Passionate Web Developer with expertise in HTML, CSS, JavaScript, and C++. Currently learning React.js.</p>
+            <div class="buttons">
+                <a href="About.html" class="btn">About Me</a>
+                <a href="contact-me.html" class="btn btn-alt">Contact Me</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <img src="images/manish2.jpeg" alt="Developer Image">
+        </div>
+    </section>
+
+    <script>
+        var typed = new Typed("#typing-text", {
+            strings: ["Front-end Developer", "Problem Solver", ],
+            typeSpeed: 100,
+            backSpeed: 80,
+            loop: true
+        });
+    </script>
+
+</body>
+</html>
